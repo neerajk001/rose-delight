@@ -3,7 +3,6 @@
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import { contactInfo, siteConfig } from "@/lib/data"
-import { cn } from "@/lib/utils"
 
 export function Contact() {
   const ref = useRef<HTMLDivElement>(null)
@@ -75,7 +74,7 @@ export function Contact() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col gap-4"
           >
-            {contactInfo.map((item, i) => (
+            {contactInfo.map((item) => (
               <div
                 key={item.label}
                 className="rounded-2xl border border-blue-100 bg-white p-5 flex items-center gap-4 hover:shadow-md hover:shadow-blue-100/50 transition-all duration-200"

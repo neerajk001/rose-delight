@@ -1,5 +1,4 @@
 import {
-  Waves,
   Baby,
   Users,
   TrendingUp,

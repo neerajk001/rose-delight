@@ -7,7 +7,7 @@ import { Menu, X } from "lucide-react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { useScroll } from "@/hooks/useScroll"
-import { siteConfig, navLinks } from "@/lib/data"
+import { navLinks } from "@/lib/data"
 import { cn } from "@/lib/utils"
 
 export function Navbar() {
