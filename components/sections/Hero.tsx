@@ -90,11 +90,11 @@ export function Hero() {
           alt="Rose Delight Swimming Academy Pool"
           fill
           priority
-          className="object-cover object-center pointer-events-none opacity-60"
+          className="object-cover object-center pointer-events-none opacity-80"
         />
         {/* Dark Luxury Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/60 to-slate-950/95" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_20%,_rgba(2,6,23,0.6)_80%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-900/35 to-slate-950/90" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_30%,_rgba(2,6,23,0.5)_85%)]" />
       </div>
 
       {/* Decorative Light Rays or Refractions */}
