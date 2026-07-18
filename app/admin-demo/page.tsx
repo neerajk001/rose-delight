@@ -4,10 +4,8 @@ import { useEffect, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
 import {
-  Users,
   Award,
   Clock,
-  Heart,
   TrendingUp,
   Search,
   Filter,
@@ -518,7 +516,7 @@ export default function AdminDemo() {
               {/* Stats KPI grid */}
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                 <div className="bg-slate-900/50 border border-slate-800/80 rounded-2xl p-5 shadow-sm hover:border-slate-800 transition-all flex flex-col">
-                  <span className="text-[10px] font-bold text-slate-400 tracking-wider uppercase">Today's Enquiries</span>
+                  <span className="text-[10px] font-bold text-slate-400 tracking-wider uppercase">Today&apos;s Enquiries</span>
                   <span className="text-3xl font-extrabold text-white mt-2">{todayCount}</span>
                   <span className="text-[10px] text-cyan-400 font-semibold mt-1">Submitted in past 24h</span>
                 </div>
@@ -609,7 +607,7 @@ export default function AdminDemo() {
                   <div>
                     <h4 className="text-sm font-bold text-white">How the demo works</h4>
                     <p className="text-xs text-slate-400 leading-relaxed mt-1 max-w-xl">
-                      This dashboard shows student admission requests. Go back to the main landing page, click any <b>"Join Batch"</b> button, and fill out the multi-step enquiry form. When you submit, the request will immediately appear here in this dashboard, and you can approve, reject, or delete it!
+                      This dashboard shows student admission requests. Go back to the main landing page, click any <b>&quot;Join Batch&quot;</b> button, and fill out the multi-step enquiry form. When you submit, the request will immediately appear here in this dashboard, and you can approve, reject, or delete it!
                     </p>
                   </div>
                 </div>
